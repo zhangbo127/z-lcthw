@@ -1,8 +1,9 @@
 CFLAGS=-Wall -g
 
 clean:
-	rm -f ex1
-	rm -f ex3
+	rm -f ex19
+
 all:
-	make ex1
-	make ex3
+	make ex19
+
+ex19: object.o
